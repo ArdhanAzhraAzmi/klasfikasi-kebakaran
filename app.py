@@ -91,7 +91,7 @@ if uploaded_file is not None:
     
 
         st.subheader("📊 Hasil Klasifikasi:")
-        st.success(f"Prediksi: **{top_label}** dengan Score Confidence **{top_confidence:.2f}%**")
+        st.success(f"Prediksi: **{top_label}** dengan Confidence Score **{top_confidence:.2f}%**")
 
         # 🚨 Peringatan cepat
         if top_label == "Smoke and Fire":
